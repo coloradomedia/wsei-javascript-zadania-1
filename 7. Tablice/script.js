@@ -1,6 +1,6 @@
 // zadanie1
 let arr = [2, 4, 6, 8];
-console.log(tab);
+console.log(arr);
 
 //zadanie2
 let arr = [1, 'two', 3, undefined, 5, 'six', 7, 'eight', true];
@@ -108,7 +108,7 @@ array([1, 2, 3, 4, 5, 6]);
 
 // zadanie7
 function array(arr) {
-  console.log(arr.sort());
+  console.log(arr.sort((a, b) => a - b));
 }
 array([8, 2, 6, 2, 3, 9]);
 
